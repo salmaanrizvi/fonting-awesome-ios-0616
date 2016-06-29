@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0252E2CE31E164C0D7D3A634 /* libPods-FontingLabTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 475EA8ABEB3FB2154868F24C /* libPods-FontingLabTests.a */; };
+		629FFE83BC79F52B94F389B4 /* libPods-FontingLab.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A645A3B29B36855A7AAC84A4 /* libPods-FontingLab.a */; };
+		7B6FB34F1D2457EA00B58346 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FB34E1D2457EA00B58346 /* main.m */; };
+		7B6FB3521D2457EA00B58346 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FB3511D2457EA00B58346 /* AppDelegate.m */; };
+		7B6FB3551D2457EA00B58346 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FB3541D2457EA00B58346 /* ViewController.m */; };
+		7B6FB3581D2457EA00B58346 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FB3561D2457EA00B58346 /* Main.storyboard */; };
+		7B6FB35A1D2457EA00B58346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FB3591D2457EA00B58346 /* Assets.xcassets */; };
+		7B6FB35D1D2457EA00B58346 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B6FB35B1D2457EA00B58346 /* LaunchScreen.storyboard */; };
+		7B6FB3681D2457EA00B58346 /* FontingLabTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FB3671D2457EA00B58346 /* FontingLabTests.m */; };
+		7B6FB3731D2457EA00B58346 /* FontingLabUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6FB3721D2457EA00B58346 /* FontingLabUITests.m */; };
+		C31D53ADAFE47BAF04481ACF /* libPods-FontingLabUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59DFD2E7D50A7BB900F13E8D /* libPods-FontingLabUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B6FB3641D2457EA00B58346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6FB3421D2457EA00B58346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6FB3491D2457EA00B58346;
+			remoteInfo = FontingLab;
+		};
+		7B6FB36F1D2457EA00B58346 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6FB3421D2457EA00B58346 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7B6FB3491D2457EA00B58346;
+			remoteInfo = FontingLab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1130625DBE102587EAE39F31 /* Pods-FontingLabTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontingLabTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontingLabTests/Pods-FontingLabTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3BB30952BA04AA1C3FFBF1B6 /* Pods-FontingLab.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontingLab.release.xcconfig"; path = "Pods/Target Support Files/Pods-FontingLab/Pods-FontingLab.release.xcconfig"; sourceTree = "<group>"; };
+		3E50F0E70DF78AF830083AA6 /* Pods-FontingLab.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontingLab.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontingLab/Pods-FontingLab.debug.xcconfig"; sourceTree = "<group>"; };
+		475EA8ABEB3FB2154868F24C /* libPods-FontingLabTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontingLabTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59DFD2E7D50A7BB900F13E8D /* libPods-FontingLabUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontingLabUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6FB34A1D2457EA00B58346 /* FontingLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontingLab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6FB34E1D2457EA00B58346 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7B6FB3501D2457EA00B58346 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7B6FB3511D2457EA00B58346 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7B6FB3531D2457EA00B58346 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7B6FB3541D2457EA00B58346 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7B6FB3571D2457EA00B58346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7B6FB3591D2457EA00B58346 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7B6FB35C1D2457EA00B58346 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7B6FB35E1D2457EA00B58346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6FB3631D2457EA00B58346 /* FontingLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontingLabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6FB3671D2457EA00B58346 /* FontingLabTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontingLabTests.m; sourceTree = "<group>"; };
+		7B6FB3691D2457EA00B58346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B6FB36E1D2457EA00B58346 /* FontingLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FontingLabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B6FB3721D2457EA00B58346 /* FontingLabUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FontingLabUITests.m; sourceTree = "<group>"; };
+		7B6FB3741D2457EA00B58346 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B07356206752F77343FAF31 /* Pods-FontingLabTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontingLabTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FontingLabTests/Pods-FontingLabTests.release.xcconfig"; sourceTree = "<group>"; };
+		A645A3B29B36855A7AAC84A4 /* libPods-FontingLab.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-FontingLab.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEACB384D94BCEA06E87282F /* Pods-FontingLabUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontingLabUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FontingLabUITests/Pods-FontingLabUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F7D868471B3349EE5F19E537 /* Pods-FontingLabUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FontingLabUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FontingLabUITests/Pods-FontingLabUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7B6FB3471D2457EA00B58346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				629FFE83BC79F52B94F389B4 /* libPods-FontingLab.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6FB3601D2457EA00B58346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0252E2CE31E164C0D7D3A634 /* libPods-FontingLabTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6FB36B1D2457EA00B58346 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C31D53ADAFE47BAF04481ACF /* libPods-FontingLabUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7B6FB3411D2457EA00B58346 = {
+			isa = PBXGroup;
+			children = (
+				7B6FB34C1D2457EA00B58346 /* FontingLab */,
+				7B6FB3661D2457EA00B58346 /* FontingLabTests */,
+				7B6FB3711D2457EA00B58346 /* FontingLabUITests */,
+				7B6FB34B1D2457EA00B58346 /* Products */,
+				AF80D87DA6B2A04A35A3E82E /* Pods */,
+				BAF10C1BD4FDCB71728028B8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7B6FB34B1D2457EA00B58346 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FB34A1D2457EA00B58346 /* FontingLab.app */,
+				7B6FB3631D2457EA00B58346 /* FontingLabTests.xctest */,
+				7B6FB36E1D2457EA00B58346 /* FontingLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7B6FB34C1D2457EA00B58346 /* FontingLab */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FB3501D2457EA00B58346 /* AppDelegate.h */,
+				7B6FB3511D2457EA00B58346 /* AppDelegate.m */,
+				7B6FB3531D2457EA00B58346 /* ViewController.h */,
+				7B6FB3541D2457EA00B58346 /* ViewController.m */,
+				7B6FB3561D2457EA00B58346 /* Main.storyboard */,
+				7B6FB3591D2457EA00B58346 /* Assets.xcassets */,
+				7B6FB35B1D2457EA00B58346 /* LaunchScreen.storyboard */,
+				7B6FB35E1D2457EA00B58346 /* Info.plist */,
+				7B6FB34D1D2457EA00B58346 /* Supporting Files */,
+			);
+			path = FontingLab;
+			sourceTree = "<group>";
+		};
+		7B6FB34D1D2457EA00B58346 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FB34E1D2457EA00B58346 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7B6FB3661D2457EA00B58346 /* FontingLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FB3671D2457EA00B58346 /* FontingLabTests.m */,
+				7B6FB3691D2457EA00B58346 /* Info.plist */,
+			);
+			path = FontingLabTests;
+			sourceTree = "<group>";
+		};
+		7B6FB3711D2457EA00B58346 /* FontingLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7B6FB3721D2457EA00B58346 /* FontingLabUITests.m */,
+				7B6FB3741D2457EA00B58346 /* Info.plist */,
+			);
+			path = FontingLabUITests;
+			sourceTree = "<group>";
+		};
+		AF80D87DA6B2A04A35A3E82E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3E50F0E70DF78AF830083AA6 /* Pods-FontingLab.debug.xcconfig */,
+				3BB30952BA04AA1C3FFBF1B6 /* Pods-FontingLab.release.xcconfig */,
+				1130625DBE102587EAE39F31 /* Pods-FontingLabTests.debug.xcconfig */,
+				8B07356206752F77343FAF31 /* Pods-FontingLabTests.release.xcconfig */,
+				DEACB384D94BCEA06E87282F /* Pods-FontingLabUITests.debug.xcconfig */,
+				F7D868471B3349EE5F19E537 /* Pods-FontingLabUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAF10C1BD4FDCB71728028B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A645A3B29B36855A7AAC84A4 /* libPods-FontingLab.a */,
+				475EA8ABEB3FB2154868F24C /* libPods-FontingLabTests.a */,
+				59DFD2E7D50A7BB900F13E8D /* libPods-FontingLabUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7B6FB3491D2457EA00B58346 /* FontingLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6FB3771D2457EA00B58346 /* Build configuration list for PBXNativeTarget "FontingLab" */;
+			buildPhases = (
+				A4E39FB85D917A0A0CC9EE99 /* [CP] Check Pods Manifest.lock */,
+				7B6FB3461D2457EA00B58346 /* Sources */,
+				7B6FB3471D2457EA00B58346 /* Frameworks */,
+				7B6FB3481D2457EA00B58346 /* Resources */,
+				AB3B1E617A601FBB8983FAE2 /* [CP] Embed Pods Frameworks */,
+				F1FC9990DE821E326E8B2943 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FontingLab;
+			productName = FontingLab;
+			productReference = 7B6FB34A1D2457EA00B58346 /* FontingLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7B6FB3621D2457EA00B58346 /* FontingLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6FB37A1D2457EA00B58346 /* Build configuration list for PBXNativeTarget "FontingLabTests" */;
+			buildPhases = (
+				C51514339827D4E3CD9F2C9D /* [CP] Check Pods Manifest.lock */,
+				7B6FB35F1D2457EA00B58346 /* Sources */,
+				7B6FB3601D2457EA00B58346 /* Frameworks */,
+				7B6FB3611D2457EA00B58346 /* Resources */,
+				C1EBF388DBDB2AA634C4BDDF /* [CP] Embed Pods Frameworks */,
+				BA1E9066A3E8B4049FC82B88 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6FB3651D2457EA00B58346 /* PBXTargetDependency */,
+			);
+			name = FontingLabTests;
+			productName = FontingLabTests;
+			productReference = 7B6FB3631D2457EA00B58346 /* FontingLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7B6FB36D1D2457EA00B58346 /* FontingLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7B6FB37D1D2457EA00B58346 /* Build configuration list for PBXNativeTarget "FontingLabUITests" */;
+			buildPhases = (
+				1A874BC52C955936C8536A6F /* [CP] Check Pods Manifest.lock */,
+				7B6FB36A1D2457EA00B58346 /* Sources */,
+				7B6FB36B1D2457EA00B58346 /* Frameworks */,
+				7B6FB36C1D2457EA00B58346 /* Resources */,
+				9EFA39B3B4FA9F302FA8D898 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7B6FB3701D2457EA00B58346 /* PBXTargetDependency */,
+			);
+			name = FontingLabUITests;
+			productName = FontingLabUITests;
+			productReference = 7B6FB36E1D2457EA00B58346 /* FontingLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7B6FB3421D2457EA00B58346 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Rizvi Labs";
+				TargetAttributes = {
+					7B6FB3491D2457EA00B58346 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					7B6FB3621D2457EA00B58346 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7B6FB3491D2457EA00B58346;
+					};
+					7B6FB36D1D2457EA00B58346 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 7B6FB3491D2457EA00B58346;
+					};
+				};
+			};
+			buildConfigurationList = 7B6FB3451D2457EA00B58346 /* Build configuration list for PBXProject "FontingLab" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7B6FB3411D2457EA00B58346;
+			productRefGroup = 7B6FB34B1D2457EA00B58346 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7B6FB3491D2457EA00B58346 /* FontingLab */,
+				7B6FB3621D2457EA00B58346 /* FontingLabTests */,
+				7B6FB36D1D2457EA00B58346 /* FontingLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7B6FB3481D2457EA00B58346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6FB35D1D2457EA00B58346 /* LaunchScreen.storyboard in Resources */,
+				7B6FB35A1D2457EA00B58346 /* Assets.xcassets in Resources */,
+				7B6FB3581D2457EA00B58346 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6FB3611D2457EA00B58346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6FB36C1D2457EA00B58346 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1A874BC52C955936C8536A6F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EFA39B3B4FA9F302FA8D898 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontingLabUITests/Pods-FontingLabUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4E39FB85D917A0A0CC9EE99 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB3B1E617A601FBB8983FAE2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontingLab/Pods-FontingLab-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA1E9066A3E8B4049FC82B88 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontingLabTests/Pods-FontingLabTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1EBF388DBDB2AA634C4BDDF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontingLabTests/Pods-FontingLabTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C51514339827D4E3CD9F2C9D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F1FC9990DE821E326E8B2943 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FontingLab/Pods-FontingLab-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7B6FB3461D2457EA00B58346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6FB3551D2457EA00B58346 /* ViewController.m in Sources */,
+				7B6FB3521D2457EA00B58346 /* AppDelegate.m in Sources */,
+				7B6FB34F1D2457EA00B58346 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6FB35F1D2457EA00B58346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6FB3681D2457EA00B58346 /* FontingLabTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6FB36A1D2457EA00B58346 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B6FB3731D2457EA00B58346 /* FontingLabUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7B6FB3651D2457EA00B58346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6FB3491D2457EA00B58346 /* FontingLab */;
+			targetProxy = 7B6FB3641D2457EA00B58346 /* PBXContainerItemProxy */;
+		};
+		7B6FB3701D2457EA00B58346 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7B6FB3491D2457EA00B58346 /* FontingLab */;
+			targetProxy = 7B6FB36F1D2457EA00B58346 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7B6FB3561D2457EA00B58346 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6FB3571D2457EA00B58346 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7B6FB35B1D2457EA00B58346 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7B6FB35C1D2457EA00B58346 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7B6FB3751D2457EA00B58346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7B6FB3761D2457EA00B58346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B6FB3781D2457EA00B58346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3E50F0E70DF78AF830083AA6 /* Pods-FontingLab.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FontingLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Salmaan.FontingLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7B6FB3791D2457EA00B58346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3BB30952BA04AA1C3FFBF1B6 /* Pods-FontingLab.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FontingLab/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Salmaan.FontingLab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7B6FB37B1D2457EA00B58346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1130625DBE102587EAE39F31 /* Pods-FontingLabTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FontingLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Salmaan.FontingLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontingLab.app/FontingLab";
+			};
+			name = Debug;
+		};
+		7B6FB37C1D2457EA00B58346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8B07356206752F77343FAF31 /* Pods-FontingLabTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FontingLabTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Salmaan.FontingLabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FontingLab.app/FontingLab";
+			};
+			name = Release;
+		};
+		7B6FB37E1D2457EA00B58346 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEACB384D94BCEA06E87282F /* Pods-FontingLabUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = FontingLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Salmaan.FontingLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FontingLab;
+			};
+			name = Debug;
+		};
+		7B6FB37F1D2457EA00B58346 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7D868471B3349EE5F19E537 /* Pods-FontingLabUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = FontingLabUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = self.edu.Salmaan.FontingLabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = FontingLab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7B6FB3451D2457EA00B58346 /* Build configuration list for PBXProject "FontingLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6FB3751D2457EA00B58346 /* Debug */,
+				7B6FB3761D2457EA00B58346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6FB3771D2457EA00B58346 /* Build configuration list for PBXNativeTarget "FontingLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6FB3781D2457EA00B58346 /* Debug */,
+				7B6FB3791D2457EA00B58346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6FB37A1D2457EA00B58346 /* Build configuration list for PBXNativeTarget "FontingLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6FB37B1D2457EA00B58346 /* Debug */,
+				7B6FB37C1D2457EA00B58346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7B6FB37D1D2457EA00B58346 /* Build configuration list for PBXNativeTarget "FontingLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B6FB37E1D2457EA00B58346 /* Debug */,
+				7B6FB37F1D2457EA00B58346 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7B6FB3421D2457EA00B58346 /* Project object */;
+}
